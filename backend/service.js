@@ -20,7 +20,7 @@ const authRoutes = require('./routes/authRoutes');
 const productRoutes = require('./routes/productRoutes');
 const voiceRoutes = require('./routes/voiceRoutes');
 
-// Use Routes
+// Use Routes  ← ⚠️ THIS IS CRITICAL
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/voice', voiceRoutes);
